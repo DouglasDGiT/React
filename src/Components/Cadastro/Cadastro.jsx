@@ -26,7 +26,7 @@ const Cadastro = () => {
   
           <form onSubmit={handleSubmit} method="POST" action="/estacionamento/Perfil">
             <input type="text" id="usuario" placeholder="Usuário" name="usuario" onChange={(e) => setUsername(e.target.value)}/>
-            <input type="email" id="email" placeholder="Email" name="email" onChange={(e) => setUsername(e.target.value)}/>
+            <input type="email" id="email" placeholder="Email" name="email" onChange={(e) => setEmail(e.target.value)}/>
             <input type="password" id="senha" placeholder="Senha" name="senha" onChange={(e) => setPassword(e.target.value)} />
             <input type="submit" className="button" value="Cadastrar" />
           </form>

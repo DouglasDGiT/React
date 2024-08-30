@@ -1,0 +1,22 @@
+.btn {
+    display:grid;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    
+    
+   
+  
+  
+    & button {
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 0.493);
+    border: none;
+    }
+  
+    & button:hover{
+      background-color: rgba(255, 0, 0, 0.993);
+  
+    }
+  }

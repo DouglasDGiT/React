@@ -1,8 +1,32 @@
-.msg{
-    position: absolute;
-    top: 65px;
-    background-color:rgba(255, 0, 0, 0.452);
-    border-radius: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+.msg {
+  position: absolute;
+  top: 65px;
+  background-color: rgba(255, 0, 0, 0.493);
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.form2 {
+  display:grid;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.137);
+  margin-bottom: 0.5rem;
+  
+  
+ 
+
+
+  & button {
+  padding: 5px;
+  border-radius: 30px;
+  background-color: rgba(255, 0, 0, 0.493);
+  border: none;
   }
+
+  & button:hover{
+    background-color: rgba(255, 0, 0, 0.993);
+
+  }
+}
